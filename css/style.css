@@ -1,0 +1,102 @@
+/* set common font */
+body {
+    font-family: 'Inter', sans-serif;
+    background: url(../assets/pattern.png);
+    background-size: 500px;
+}
+/* reset margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* style for cards */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px rgba(0,0,0, 0.3);
+}
+/* modify card header */
+.card h1 {
+    margin-bottom: 20px;
+    font-weight: 800;
+
+}
+/* modify card paragraph */
+.card p {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+/* styly card-economy */
+.card-economy h1 {
+    color: blue
+}
+.card-economy a {
+    background-color: blue
+}
+.card-economy a:hover {
+    background-color: rgb(93, 93, 241);
+}
+.card-economy a:active {
+    background-color: rgb(73, 73, 255);
+}
+/* style card-luxury */
+.card-luxury h1 {
+    color: red;
+}
+.card-luxury a {
+    background-color: red;
+}
+.card-luxury a:hover {
+        background-color: rgb(149, 6, 6)
+    }
+.card-luxury a:active {
+        background-color: red
+    }
+/* style card-family */
+.card-family h1 {
+    color: green;
+}
+.card-family a {
+    background-color: green;
+}
+.card-family a:hover {
+    background-color: rgb(128, 216, 128);
+}
+.card-family a:active {
+    background-color: rgb(48, 84, 48);
+}
+/* style link buttons */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+i {
+    margin-right:  5px;
+}
+/* add background image to cards */
+.card-economy {
+    background: white url(../assets/economic-car.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.card-luxury {
+    background: white url(../assets/family-car.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.card-family {
+    background: white url(../assets/family-car.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
